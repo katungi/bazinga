@@ -1,3 +1,5 @@
+import 'package:bazinga/search/search.binding.dart';
+import 'package:bazinga/search/search.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -14,6 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
+      home: Search(),
+      initialBinding: SearchBinding(),
     );
   }
 }
